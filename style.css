@@ -1,0 +1,64 @@
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.text-box > p:nth-of-type(3) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+.monday {
+  background-color: red;
+}
+.tuesday {
+  background-color: azure;
+}
+.wednesday {
+  background-color: greenyellow;
+}
+.thursday {
+  background-color: blueviolet;
+}
+.friday {
+  background-color: chartreuse;
+}
+.lessons1:hover {
+  background-color: blue;
+}
+.lessons1:focus {
+  background-color: aqua;
+}
+.lessons2:hover {
+  background-color: blueviolet;
+}
+.lessons2:focus {
+  background-color: brown;
+}
+.lessons3:hover {
+  background-color: chartreuse;
+}
+.lessons:focus {
+  background-color: chocolate;
+}
+.lessons4:hover {
+  background-color: darkblue;
+}
+.lessons4:focus{
+    background-color: cyan;
+}
+.lessons5:hover{
+    background-color: coral;
+}
+.lessons5:focus{
+    background-color: darkmagenta;
+}
