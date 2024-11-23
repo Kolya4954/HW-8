@@ -17,48 +17,37 @@
 .yellow {
   color: yellow;
 }
-.monday {
-  background-color: red;
+.monday li:nth-child(odd) {
+  background-color: #ff6f61;
 }
-.tuesday {
-  background-color: azure;
+.monday li:nth-child(even) {
+  background-color: #ff9f61;
 }
-.wednesday {
-  background-color: greenyellow;
+
+.tuesday li:nth-child(3n) {
+  background-color: #61baff;
 }
-.thursday {
-  background-color: blueviolet;
+.tuesday li:not(:nth-child(3n)) {
+  background-color: #61dfff;
 }
-.friday {
-  background-color: chartreuse;
+
+.wednesday li:first-child {
+  background-color: #ff61f9;
 }
-.lessons1:hover {
-  background-color: blue;
+.wednesday li:last-child {
+  background-color: #ff61a6;
 }
-.lessons1:focus {
-  background-color: aqua;
+
+.thursday li:nth-child(-n + 2) {
+  background-color: #61ff91;
 }
-.lessons2:hover {
-  background-color: blueviolet;
+.thursday li:nth-child(n + 3) {
+  background-color: #91ff61;
 }
-.lessons2:focus {
-  background-color: brown;
+
+.friday li:only-child {
+  background-color: #ff6161;
 }
-.lessons3:hover {
-  background-color: chartreuse;
-}
-.lessons:focus {
-  background-color: chocolate;
-}
-.lessons4:hover {
-  background-color: darkblue;
-}
-.lessons4:focus{
-    background-color: cyan;
-}
-.lessons5:hover{
-    background-color: coral;
-}
-.lessons5:focus{
-    background-color: darkmagenta;
+.friday li:nth-child(n + 2) {
+  background-color: #ff9f91;
 }
